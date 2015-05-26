@@ -1,8 +1,0 @@
-CREATE TABLE `kollektiv`.`betalreise` (
-  `ID_KUNDE` INT NOT NULL AUTO_INCREMENT,
-  `navn` VARCHAR(45) NOT NULL,
-  `kontoNr` INT NOT NULL,
-  `cvc` INT NOT NULL,
-  `utlopsdato` DATE NOT NULL,
-  PRIMARY KEY (`ID_KUNDE`),
-  UNIQUE INDEX `ID_KUNDE_UNIQUE` (`ID_KUNDE` ASC));
